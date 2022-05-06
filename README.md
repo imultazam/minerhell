@@ -6,4 +6,4 @@ git clone https://github.com/Starminer21/minerhell.git && chmod -R 777 minerhell
 
 Launch Miner
 
-./hellminer.sh
+./mine.sh
